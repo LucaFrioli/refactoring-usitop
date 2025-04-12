@@ -3,10 +3,10 @@ import Header from '../../components/header/header';
 
 function Contato() {
 	const action = import.meta.env.VITE_EMAIL_CONSUME;
+	const endereco = import.meta.env.VITE_ADDRESS;
 	return (
 		<>
 			<Header />
-
 			{/* <div id="alert-contato" style="display: none"></div> */}
 
 			<div className="container-fluid my-5">
@@ -45,7 +45,7 @@ function Contato() {
 								<div className="col-12 mb-3">
 									<label
 										className="form-label"
-										htmlFor="clientName"
+										htmlFor="Nome"
 									>
 										<strong>Nome:</strong>
 									</label>
@@ -53,7 +53,7 @@ function Contato() {
 										type="text"
 										className="form-control validation"
 										id="nome"
-										name="clientName"
+										name="Nome"
 										placeholder="Nome"
 									/>
 								</div>
@@ -61,7 +61,7 @@ function Contato() {
 								<div className="col-12 col-lg-6 col-md-7 mb-3">
 									<label
 										className="form-label"
-										htmlFor="clientEmail"
+										htmlFor="Email"
 									>
 										<strong>Email:</strong>
 									</label>
@@ -69,7 +69,7 @@ function Contato() {
 										type="email"
 										className="form-control validation"
 										id="email"
-										name="clientEmail"
+										name="Email"
 										placeholder="Seu email"
 									/>
 								</div>
@@ -77,7 +77,7 @@ function Contato() {
 								<div className="col-12 col-lg-6 col-md-5 mb-3">
 									<label
 										className="form-label"
-										htmlFor="clientCellphone"
+										htmlFor="Celular"
 									>
 										<strong>Número de contato:</strong>
 									</label>
@@ -86,7 +86,7 @@ function Contato() {
 										maxLength={15}
 										className="form-control validation"
 										id="telefone"
-										name="clientCellphone"
+										name="Celular"
 										placeholder="(00) 00000-0000"
 									/>
 								</div>
@@ -94,14 +94,14 @@ function Contato() {
 								<div className="col-12">
 									<label
 										className="form-label"
-										htmlFor="clientMessage"
+										htmlFor="Menssagem"
 									>
 										<strong>Mensagem:</strong>
 									</label>
 									<textarea
 										className="form-control validation col-12"
 										id="message"
-										name="clientMessage"
+										name="Menssagem"
 										placeholder="Insira aqui sua mensagem ..."
 										style={{ height: '150px' }}
 									></textarea>
@@ -115,6 +115,16 @@ function Contato() {
 							>
 								Enviar
 							</button>
+							<input
+								type="hidden"
+								name="_next"
+								value={endereco}
+							/>
+							<input
+								type="text"
+								name="_honey"
+								style={{ display: 'none' }}
+							/>
 						</form>
 					</div>
 				</div>
