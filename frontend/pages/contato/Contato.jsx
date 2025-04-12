@@ -2,6 +2,7 @@ import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/header';
 
 function Contato() {
+	const action = import.meta.env.VITE_EMAIL_CONSUME;
 	return (
 		<>
 			<Header />
@@ -37,7 +38,7 @@ function Contato() {
 					<div className="col-xl-6 col-md-8 col-10">
 						<form
 							method="post"
-							action="/contato"
+							action={action}
 							className="form-group contactForm my-5"
 						>
 							<div className="row justify-content-center">
