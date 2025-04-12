@@ -1,0 +1,102 @@
+#produtos-btn-contato {
+	background-color: #193046;
+	font-size: 24px;
+	max-height: 75px;
+}
+
+.content-container-products-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 20rem;
+	padding: 0.5rem;
+}
+
+text-card-products {
+	color: #061420;
+}
+
+.card-title.produtos {
+	font-family: League Spartan;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+}
+
+.card-content {
+	text-align: center;
+}
+
+.card-bold {
+	background-color: #193046;
+}
+
+.card-light {
+	background-color: #2d485f;
+}
+
+.readMore {
+	justify-self: flex-end;
+	color: #fff;
+}
+
+.productsCallToAction {
+	padding: 0.4rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#moldes {
+	background-color: #193046;
+	background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	background-size: 100vw;
+	/* filter: brightness(0.9) contrast(150%) saturate(70%) opacity(30%) sepia(5%); */
+	border: solid #fff 1px;
+}
+
+#matrizes {
+	background-color: #2d485f;
+	background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	background-size: 100vw;
+	border: solid #fff 1px;
+	/* filter: brightness(0.9) contrast(150%) saturate(70%) opacity(30%) sepia(5%); */
+}
+
+#eletro-erosao {
+	background-color: #193046;
+	background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	background-size: 100vw;
+	/* filter: brightness(0.9) contrast(150%) saturate(70%) opacity(30%) sepia(5%); */
+	border: solid #fff 1px;
+}
+
+#usinagens {
+	background-color: #2d485f;
+	background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	background-size: 100vw;
+	/* filter: brightness(0.9) contrast(150%) saturate(70%) opacity(30%) sepia(5%); */
+	border: solid #fff 1px;
+}
+
+@media (max-width: 760px) {
+	.productsCallToAction {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0.5rem;
+		align-items: center;
+	}
+}
