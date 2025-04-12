@@ -3,7 +3,6 @@ import Header from '../../components/header/header';
 import Carousel from '../../components/card-carousel/Carousel';
 import Footer from '../../components/footer/Footer';
 import { useEffect } from 'react';
-import { Link } from 'react-router';
 
 function App() {
 	useEffect(() => {

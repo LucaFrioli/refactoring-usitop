@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 function Header() {
 	return (
 		<>
@@ -24,6 +26,7 @@ function Header() {
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav ms-auto">
 							<li className="nav-item mx-3">
+								<Link />
 								<a className="nav-link" href="/">
 									Home
 								</a>
