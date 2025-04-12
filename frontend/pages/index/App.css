@@ -10,3 +10,25 @@
 .read-the-docs {
 	color: #888;
 }
+
+#hero-message {
+	background-color: #2d485f40;
+	position: relative;
+}
+
+#text-color {
+	color: #193046;
+}
+
+.text-right {
+	text-align: right;
+}
+
+#btn-message {
+	background-color: #193046;
+	color: #fff;
+}
+
+#bg-container-green {
+	background-color: #8cb89f;
+}
