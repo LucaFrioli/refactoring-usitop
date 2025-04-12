@@ -1,5 +1,6 @@
 #top-footer {
 	background-color: #2d485f;
+	text-align: left;
 }
 
 #bottom-footer {
@@ -15,7 +16,7 @@
 }
 
 #bg-image {
-	background-image: url(../icon/logo_usitop_footer.svg);
+	background-image: url(./assets/icon/logo_usitop_footer.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 2rem;
