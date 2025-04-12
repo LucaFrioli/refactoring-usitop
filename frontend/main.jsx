@@ -5,6 +5,7 @@ import './index.css';
 import App from './pages/index/App.jsx';
 import Produtos from './pages/produtos/Produtos.jsx';
 import Contato from './pages/contato/Contato.jsx';
+import Sobre from './pages/sobre/Sobre.jsx';
 
 createRoot(document.getElementById('root')).render(
 	<Router>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
 			<Route path="/" element={<App />} />
 			<Route path="/produtos" element={<Produtos />} />
 			<Route path="/contato" element={<Contato />} />
+			<Route path="/sobre" element={<Sobre />} />
 		</Routes>
 	</Router>,
 );
