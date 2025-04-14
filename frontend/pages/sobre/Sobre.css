@@ -1,0 +1,29 @@
+#sobre-container {
+	background-image: url('../../../public/assets/img/logo_background_25.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	background-size: 100vh;
+}
+
+@media only screen and (max-device-width: 900px) {
+	#sobre-container {
+		background-size: 75vh;
+	}
+
+	#sobre-icon {
+		display: none;
+	}
+}
+
+#sobre-btn-contato {
+	background-color: #193046;
+	font-size: 24px;
+	max-height: 75px;
+}
+
+#sobre-icon {
+	max-width: 100px;
+	max-height: 100px;
+}
