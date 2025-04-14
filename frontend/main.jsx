@@ -12,7 +12,7 @@ import EletroEr from './pages/produtos_pages/EletroEr.jsx';
 import Usinagem from './pages/produtos_pages/Usinagem.jsx';
 
 createRoot(document.getElementById('root')).render(
-	<Router>
+	<Router basename="/refactoring-usitop">
 		<Routes>
 			<Route path="/" element={<App />} />
 			<Route path="/produtos" element={<Produtos />} />
