@@ -16,10 +16,10 @@ createRoot(document.getElementById('root')).render(
 		<Routes>
 			<Route path="/" element={<App />} />
 			<Route path="/produtos" element={<Produtos />} />
-			<Route path="/produtos/moldes" element={<Moldes />} />
-			<Route path="/produtos/matrizes" element={<Matrizes />} />
-			<Route path="/produtos/eletro-erosao" element={<EletroEr />} />
-			<Route path="/produtos/usinagens" element={<Usinagem />} />
+			<Route path="/moldes" element={<Moldes />} />
+			<Route path="/matrizes" element={<Matrizes />} />
+			<Route path="/eletro-erosao" element={<EletroEr />} />
+			<Route path="/usinagens" element={<Usinagem />} />
 			<Route path="/contato" element={<Contato />} />
 			<Route path="/sobre" element={<Sobre />} />
 		</Routes>
