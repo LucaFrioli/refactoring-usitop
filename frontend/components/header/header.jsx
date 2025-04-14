@@ -5,7 +5,7 @@ function Header() {
 		<>
 			<nav className="navbar navbar-expand-lg bg-white shadow">
 				<div className="container">
-					<a className="navbar-brand" href="/">
+					<a className="navbar-brand" href="/refactoring-usitop/">
 						<img
 							src=".\assets\img\usitop-3.png"
 							alt="Logomarca da Usitop"
@@ -26,23 +26,34 @@ function Header() {
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav ms-auto">
 							<li className="nav-item mx-3">
-								<Link />
-								<a className="nav-link" href="/">
+								<a
+									className="nav-link"
+									href="/refactoring-usitop/"
+								>
 									Home
 								</a>
 							</li>
 							<li className="nav-item mx-3">
-								<a className="nav-link" href="/produtos">
+								<a
+									className="nav-link"
+									href="/refactoring-usitop/produtos"
+								>
 									Produtos
 								</a>
 							</li>
 							<li className="nav-item mx-3">
-								<a className="nav-link" href="/contato">
+								<a
+									className="nav-link"
+									href="/refactoring-usitop/contato"
+								>
 									Contato
 								</a>
 							</li>
 							<li className="nav-item ms-3">
-								<a className="nav-link" href="/sobre">
+								<a
+									className="nav-link"
+									href="/refactoring-usitop/sobre"
+								>
 									Sobre
 								</a>
 							</li>
