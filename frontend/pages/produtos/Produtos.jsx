@@ -31,6 +31,7 @@ function Produtos() {
 							`Sua ideia, nosso molde. Transformamos seus projetos em realidade. Contamos com uma equipe especializada e maquinário de última geração para criar moldes que superam suas expectativas.`,
 						]}
 						id="moldes"
+						path="produtos/moldes"
 					/>
 
 					<CardShow
@@ -40,6 +41,7 @@ function Produtos() {
 							`O formato ideal para seu produto. Desenvolvemos matrizes de extrusão sob medida para diferentes tipos de materiais e perfis, otimizando seus processos produtivos.`,
 						]}
 						id="matrizes"
+						path="produtos/matrizes"
 					/>
 
 					<CardShow
@@ -49,6 +51,7 @@ function Produtos() {
 							`Materiais especiais, soluções precisas. Trabalhamos com diversos tipos de materiais, garantindo a melhor solução para cada aplicação. A eletroerosão é a tecnologia ideal para peças que exigem alta precisão e acabamento.`,
 						]}
 						id="eletro-erosao"
+						path="produtos/eletro-erosao"
 					/>
 
 					<CardShow
@@ -58,6 +61,7 @@ function Produtos() {
 							`Peças sob medida para sua linha de produção. Realizamos usinagem em série de acordo com seus desenhos técnicos, garantindo a entrega rápida e eficiente de peças com as especificações exatas.`,
 						]}
 						id="usinagens"
+						path="produtos/usinagens"
 					/>
 				</div>
 			</section>
