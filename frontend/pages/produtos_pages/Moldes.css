@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .textbox{
@@ -19,11 +20,31 @@
     
 }
 
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+.fig{
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+}
+
+
+
 @media (max-width: 600px) {
    
     .textbox{
         width: 90vw;
         overflow-x: scroll;
+    }
+
+    .galeria{
+        width: 90vw;
     }
 
    

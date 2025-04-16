@@ -54,6 +54,22 @@ function Moldes() {
 						parceiro ideal.
 					</p>
 				</div>
+
+				<div class="galeria">
+					<figure  class="fig">
+						<img src="*/" alt="Exemplo de molde de compressão" />	
+					</figure>
+					<figure  class="fig">
+						<img src="*/" alt="Exemplo de molde de compressão" />
+					</figure>
+					<figure  class="fig">
+						<img src="*/" alt="Exemplo de molde de compressão" />
+					</figure>
+					<figure  class="fig">
+						<img src="*/" alt="Exemplo de molde de compressão" />
+					</figure>
+				</div>
+
 			</div>
 
 			<Footer />
