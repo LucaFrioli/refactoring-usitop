@@ -1,4 +1,4 @@
-function Carousel() {
+function Especialidades() {
 	return (
 		<div className="container">
 			{/* LINHA 1 */}
@@ -158,4 +158,4 @@ function Carousel() {
 	);
 }
 
-export default Carousel;
+export default Especialidades;

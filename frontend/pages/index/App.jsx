@@ -1,6 +1,6 @@
 import './App.css';
 import Header from '../../components/header/header';
-import Carousel from '../../components/card-carousel/Carousel';
+import Especialidades from '../../components/cards_servicos/especialidades';
 import Footer from '../../components/footer/Footer';
 import { useEffect } from 'react';
 
@@ -102,7 +102,7 @@ function App() {
 					Nossas especialidades
 				</h1>
 				<div class="container my-5">
-					<Carousel></Carousel>
+					<Especialidades></Especialidades>
 				</div>
 			</div>
 
