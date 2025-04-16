@@ -27,7 +27,7 @@ function Especialidades() {
 									<hr className="col-8 card-hr" />
 									<a
 										className="btn"
-										href="/produtos"
+										href="produtos"
 										style={{ margin: 0, padding: 0 }}
 									>
 										<small className="text-body-secondary">
@@ -64,7 +64,7 @@ function Especialidades() {
 									<hr className="col-8 card-hr" />
 									<a
 										className="btn"
-										href="/produtos"
+										href="produtos"
 										style={{ margin: 0, padding: 0 }}
 									>
 										<small className="text-body-secondary">
@@ -104,7 +104,7 @@ function Especialidades() {
 									<hr className="col-8 card-hr" />
 									<a
 										className="btn"
-										href="/produtos"
+										href="produtos"
 										style={{ margin: 0, padding: 0 }}
 									>
 										<small className="text-body-secondary">
@@ -141,7 +141,7 @@ function Especialidades() {
 									<hr className="col-8 card-hr" />
 									<a
 										className="btn"
-										href="/produtos"
+										href="produtos"
 										style={{ margin: 0, padding: 0 }}
 									>
 										<small className="text-body-secondary">
