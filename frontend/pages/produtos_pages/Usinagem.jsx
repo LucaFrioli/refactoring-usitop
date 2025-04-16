@@ -1,4 +1,5 @@
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/Footer';
 
 function Usinagem() {
 	return (
@@ -46,6 +47,9 @@ function Usinagem() {
 					confiança.
 				</p>
 			</div>
+
+			<Footer />
+
 		</>
 	);
 }

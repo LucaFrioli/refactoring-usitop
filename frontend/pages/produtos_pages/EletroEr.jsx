@@ -40,6 +40,7 @@ function EletroEr() {
 					medida para as mais exigentes aplicações da indústria.
 				</p>
 			</div>
+			
 			<Footer />
 		</>
 	);

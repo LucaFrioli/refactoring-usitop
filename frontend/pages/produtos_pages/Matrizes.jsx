@@ -1,4 +1,5 @@
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/Footer';
 
 function Matrizes() {
 	return (
@@ -32,6 +33,9 @@ function Matrizes() {
 					produção dos nossos clientes.
 				</p>
 			</div>
+
+			<Footer />
+
 		</>
 	);
 }
