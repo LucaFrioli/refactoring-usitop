@@ -1,5 +1,5 @@
 #sobre-container {
-	background-image: url('../../../public/assets/img/logo_background_25.png');
+	background-image: url('../../public/assets/img/logo_background_25.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	justify-content: center;
@@ -15,12 +15,6 @@
 	#sobre-icon {
 		display: none;
 	}
-}
-
-#sobre-btn-contato {
-	background-color: #193046;
-	font-size: 24px;
-	max-height: 75px;
 }
 
 #sobre-icon {
