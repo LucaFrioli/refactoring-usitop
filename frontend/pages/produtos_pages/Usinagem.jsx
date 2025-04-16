@@ -1,5 +1,6 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
+import Galery from '../../components/galeria_produtos/Galery';
 
 function Usinagem() {
 	return (
@@ -70,6 +71,31 @@ function Usinagem() {
 						medida com agilidade, precisão e confiança.
 					</p>
 				</div>
+
+				<Galery
+				
+				images = {[
+					{
+						sourc: "*/",
+						desc: "Exemplos de usinagem",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de usinagem",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de usinagem",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de usinagem",
+					}
+				]}
+
+
+				/>
+
 			</div>
 
 			<Footer />

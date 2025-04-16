@@ -1,4 +1,5 @@
 import Footer from '../../components/footer/Footer';
+import Galery from '../../components/galeria_produtos/Galery';
 import Header from '../../components/header/header';
 import './Moldes.css';
 
@@ -59,6 +60,30 @@ function EletroEr() {
 						aplicações da indústria.
 					</p>
 				</div>
+
+				<Galery
+				
+				images = {[
+					{
+						sourc: "*/",
+						desc: "Exemplos de eletroerosão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de eletroerosão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de eletroerosão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de eletroerosão",
+					}
+				]}
+				
+				/>
+
 			</div>
 
 			<Footer />
