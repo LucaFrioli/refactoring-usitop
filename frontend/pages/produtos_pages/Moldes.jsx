@@ -13,7 +13,7 @@ function Moldes() {
 				<div class="textbox">
 					<p>
 						Na Usitop, oferecemos soluções completas e de alta precisão
-						na fabricação de moldes de compressão, com foco na
+						na <strong>fabricação de moldes de compressão</strong>, com foco na
 						excelência dimensional, durabilidade e eficiência do
 						processo produtivo. Atuamos desde o desenvolvimento do
 						projeto até a entrega final, garantindo a fidelidade ao

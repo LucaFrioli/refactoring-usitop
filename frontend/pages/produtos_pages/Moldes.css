@@ -16,13 +16,14 @@
     width: 70vw;
     margin-top: 3vh;
     text-align: justify;
-    overflow-wrap: normal;
+    
 }
 
 @media (max-width: 600px) {
    
     .textbox{
         width: 90vw;
+        overflow-x: scroll;
     }
 
    
