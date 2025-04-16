@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 function Header() {
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg bg-white shadow">
+			<nav className="navbar navbar-expand-lg bg-white shadow fixed-top">
 				<div className="container">
 					<a className="navbar-brand" href="/refactoring-usitop/">
 						<img
