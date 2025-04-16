@@ -2,6 +2,7 @@ import './Produtos.css';
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/header';
 import CardShow from '../../components/card_show/Card_show';
+import FaleConosco from '../../components/hero_send_message/FaleConosco';
 
 function Produtos() {
 	return (
@@ -67,19 +68,7 @@ function Produtos() {
 			</section>
 
 			{/* Fale Conosco */}
-
-			<div className="py-5 my-5 productsCallToAction">
-				<h3 className="col-10 col-md-8 col-lg-4 text-center">
-					Tem interesse? Entre em contato com a gente!
-				</h3>
-				<a
-					href="/contato"
-					className="btn text-white rounded col-lg-3 align-content-center"
-					id="produtos-btn-contato"
-				>
-					Envie uma mensagem
-				</a>
-			</div>
+			<FaleConosco message="Tem interesse? Entre em contato com a gente!" />
 
 			<Footer />
 		</>
