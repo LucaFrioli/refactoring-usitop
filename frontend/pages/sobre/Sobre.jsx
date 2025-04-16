@@ -1,5 +1,6 @@
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/header';
+import FaleConosco from '../../components/hero_send_message/FaleConosco';
 import './Sobre.css';
 
 function Sobre() {
@@ -70,20 +71,10 @@ function Sobre() {
 					/>
 				</div>
 
-				{/* Fale conosco */}
-				<div class="row pt-5 m-3 justify-content-evenly">
-					<h3 class="col-sm-6 col-lg-4">
-						Tem alguma dúvida? Quer conhecer nosso método de
-						trabalho?
-					</h3>
-					<a
-						href="/contato"
-						class="btn text-white rounded col-sm-6 col-lg-3 align-content-center"
-						id="sobre-btn-contato"
-					>
-						Envie uma mensagem
-					</a>
-				</div>
+				<FaleConosco
+					message="Tem alguma dúvida? Quer conhecer nosso método de
+					trabalho?"
+				/>
 			</div>
 
 			<Footer />
