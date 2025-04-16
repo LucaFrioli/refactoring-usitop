@@ -1,6 +1,7 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
 import './Moldes.css';
+import Galery from '../../components/galeria_produtos/Galery';
 
 function Moldes() {
 	return (
@@ -54,6 +55,30 @@ function Moldes() {
 						parceiro ideal.
 					</p>
 				</div>
+
+				<Galery
+				
+					images = {[
+					{
+						sourc: "*/",
+						desc: "Exemplos de moldes de compressão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de moldes de compressão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de moldes de compressão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de moldes de compressão",
+					}
+				]}
+				
+				/>
+
 			</div>
 
 			<Footer />

@@ -1,0 +1,21 @@
+.callToAction {
+	padding: 0.4rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#btn-contato {
+	background-color: #193046;
+	font-size: 24px;
+	max-height: 75px;
+}
+
+@media (max-width: 760px) {
+	.callToAction {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0.5rem;
+		align-items: center;
+	}
+}

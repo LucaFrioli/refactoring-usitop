@@ -1,6 +1,7 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
 import './Moldes.css';
+import Galery from '../../components/galeria_produtos/Galery';
 
 function Matrizes() {
 	return (
@@ -46,6 +47,30 @@ function Matrizes() {
 						demandas de produção dos nossos clientes.
 					</p>
 				</div>
+
+				<Galery
+				
+				images = {[
+					{
+						sourc: "*/",
+						desc: "Exemplos de matrizes de extrusão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de matrizes de extrusão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de matrizes de extrusão",
+					},
+					{
+						src: "*/",
+						desc: "Exemplos de matrizes de extrusão",
+					}
+				]}
+
+				/>
+
 			</div>
 
 			<Footer />
