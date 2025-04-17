@@ -9,7 +9,7 @@ function Produtos() {
 		<>
 			<Header />
 
-			<div className="row mt-3 justify-content-center mx-0">
+			<div className="row mt-5 justify-content-center mx-0">
 				<div className="col-lg-5 text-center my-5">
 					<h1>
 						<strong>Produtos</strong>
