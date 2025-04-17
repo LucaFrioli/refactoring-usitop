@@ -1,9 +1,9 @@
 import './App.css';
 import Header from '../../components/header/header';
-import Especialidades from '../../components/cards_servicos/especialidades';
 import Footer from '../../components/footer/Footer';
 import { useEffect } from 'react';
 import useParallax from './useParalaxx';
+import CardServicos from '../../components/cards_servicos/Cards_servicos';
 
 function App() {
 	useEffect(() => {
@@ -111,7 +111,34 @@ function App() {
 					Nossas especialidades
 				</h1>
 				<div className="container my-5">
-					<Especialidades></Especialidades>
+					<div className="row d-flex justify-content-center">
+						<CardServicos
+							imgSrc="./assets/img/molde-compressao.jpg"
+							imgAlt="Molde de Compressão"
+							title="Moldes de Compressão"
+							text="Desenvolvemos moldes de alta qualidade cuidando de cada etapa do processo."
+						/>
+						<CardServicos
+							imgSrc="./assets/img/matriz_card2.jpeg"
+							imgAlt="Matriz de Extrusão"
+							title="Matriz de Extrusão"
+							text="Matrizes de extrusão de borracha personalizadas e de alta precisão."
+						/>
+					</div>
+					<div className="row my-3 d-flex justify-content-center">
+						<CardServicos
+							imgSrc="./assets/img/eletroerosao.jpeg"
+							imgAlt="Eletro-erosão"
+							title="Eletro-erosão"
+							text="Corte de formas complexas e alta precisão."
+						/>
+						<CardServicos
+							imgSrc="./assets/img/usinagem-em-serie.jpeg"
+							imgAlt="Usinagem em Série"
+							title="Usinagem em Série"
+							text="Torneamento, fresamento, furação e muito mais."
+						/>
+					</div>
 				</div>
 			</div>
 
