@@ -30,7 +30,7 @@ function Header() {
 									className="nav-link"
 									href="/refactoring-usitop/"
 								>
-									Home
+									HOME
 								</a>
 							</li>
 							<li className="nav-item mx-3">
@@ -38,7 +38,7 @@ function Header() {
 									className="nav-link"
 									href="/refactoring-usitop/produtos"
 								>
-									Produtos
+									PRODUTOS
 								</a>
 							</li>
 							<li className="nav-item mx-3">
@@ -46,7 +46,7 @@ function Header() {
 									className="nav-link"
 									href="/refactoring-usitop/contato"
 								>
-									Contato
+									CONTATO
 								</a>
 							</li>
 							<li className="nav-item ms-3">
@@ -54,7 +54,7 @@ function Header() {
 									className="nav-link"
 									href="/refactoring-usitop/sobre"
 								>
-									Sobre
+									SOBRE
 								</a>
 							</li>
 						</ul>

@@ -16,7 +16,7 @@ function App() {
 		<>
 			<Header />
 			{/* CORPO */}
-			<div className="container-fluid px-0 pt-5">
+			<div className="container-fluid px-0">
 				<div className="position-relative overflow-hidden banner-parallax">
 					<div className="parallax-wrapper">
 						<img
