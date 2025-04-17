@@ -2,8 +2,15 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
 import './Moldes.css';
 import Galery from '../../components/galeria_produtos/Galery';
+import { useEffect } from 'react';
+
 
 function Matrizes() {
+
+	useEffect(() => {
+			window.scrollTo(0, 0);
+		  }, []);
+
 	return (
 		<>
 			<Header />

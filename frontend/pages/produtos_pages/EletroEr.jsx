@@ -2,8 +2,15 @@ import Footer from '../../components/footer/Footer';
 import Galery from '../../components/galeria_produtos/Galery';
 import Header from '../../components/header/header';
 import './Moldes.css';
+import { useEffect } from 'react';
 
 function EletroEr() {
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	  }, []);
+	
+
 	return (
 		<>
 			<Header />
