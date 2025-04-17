@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router';
+import "./Card_show.css"
 
 function CardShow({ title, content, id, path }) {
 	const contentIsArray = Array.isArray(content); // caso for um array inicia um map adicionando um br a cada item do array
@@ -11,7 +12,7 @@ function CardShow({ title, content, id, path }) {
 	return (
 		<div
 			id={id}
-			className="col-12 col-xl-6 text-white card-bold content-container-products-info"
+			className="col-12 col-xl-6 text-white card-bold py-3 content-container-products-info"
 		>
 			<p className="card-title produtos">{title}</p>
 
@@ -27,7 +28,7 @@ function CardShow({ title, content, id, path }) {
 			)}
 
 			<button
-				className="btn btn-outline-light rounded-0 w-25 readMore"
+				className="btn btn-outline-light rounded-0 mt-auto readMore"
 				onClick={saibaMais}
 			>
 				Saiba mais
