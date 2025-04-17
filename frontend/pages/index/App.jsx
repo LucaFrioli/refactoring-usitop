@@ -154,15 +154,14 @@ function App() {
 					<br />
 					Entre em contato!
 				</h1>
-				<form action="/contato" method="get">
-					<button
-						type="button submit"
-						className="btn btn-lg w-50 my-3 col-12"
-						id="btn-message"
-					>
-						Envie uma mensagem
-					</button>
-				</form>
+				<a
+					href="contato"
+					type="button submit"
+					className="btn btn-lg w-50 my-3 col-12"
+					id="btn-message"
+				>
+					Envie uma mensagem
+				</a>
 			</div>
 			<Footer />
 		</>
