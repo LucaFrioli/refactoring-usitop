@@ -35,7 +35,7 @@ function Contato() {
 				</div>
 
 				<div className="row mt-3 justify-content-center">
-					<div className="col-xl-6 col-md-8 col-10">
+					<div className="col-xl-6 col-md-8 col-10 text-start">
 						<form
 							method="post"
 							action={action}

@@ -15,6 +15,7 @@ function Produtos() {
 						<strong>Produtos</strong>
 					</h1>
 					<p className="mt-3">
+						Se precisar de alguma solução especial, entre em contato hoje mesmo e garanta seu produto!
 						Confira mais informações sobre os produtos...
 					</p>
 				</div>

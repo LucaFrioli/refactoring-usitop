@@ -35,7 +35,7 @@ function Sobre() {
 							alt="Alvo com uma flecha"
 							id="sobre-icon"
 						/>
-						<div class="col-lg-8 col-xl-6 col-10">
+						<div class="col-lg-8 col-xl-6 col-10 text-start">
 							<h2>
 								<strong>Missão</strong>
 							</h2>
