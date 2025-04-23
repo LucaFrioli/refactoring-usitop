@@ -15,11 +15,11 @@ function EletroEr() {
 		<>
 			<Header />
 			<div className="page">
-				<h1>Fabricação por Eletroerosão</h1>
+				<h1><strong>Fabricação por Eletroerosão</strong></h1>
 				<div className="textbox">
 					<p>
 						Na Usitop, utilizamos a tecnologia de{' '}
-						<strong>
+						<strong class="text-bold">
 							eletroerosão (EDM – Electrical Discharge Machining)
 						</strong>{' '}
 						como um dos principais processos para a fabricação de
@@ -58,7 +58,7 @@ function EletroEr() {
 					</p>
 					<p>
 						Combinando{' '}
-						<strong>
+						<strong class="text-bold">
 							tecnologia de ponta, know-how técnico e compromisso
 							com a excelência
 						</strong>

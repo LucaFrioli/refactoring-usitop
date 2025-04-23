@@ -9,7 +9,6 @@
 }
 
 .textbox{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +18,10 @@
     margin-top: 3vh;
     text-align: justify;
     
+}
+
+.text-bold{
+    font-weight: 800;
 }
 
 .galeria{
