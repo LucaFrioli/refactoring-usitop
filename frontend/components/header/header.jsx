@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import './header.css';
 
 function Header() {
 	return (
@@ -25,7 +26,7 @@ function Header() {
 					</button>
 					<div className="collapse navbar-collapse" id="navbarNav">
 						<ul className="navbar-nav ms-auto">
-							<li className="nav-item mx-3">
+							<li className="nav-item mx-lg-3">
 								<a
 									className="nav-link"
 									href="/refactoring-usitop/"
@@ -33,7 +34,7 @@ function Header() {
 									HOME
 								</a>
 							</li>
-							<li className="nav-item mx-3">
+							<li className="nav-item mx-lg-3">
 								<a
 									className="nav-link"
 									href="/refactoring-usitop/produtos"
@@ -41,7 +42,7 @@ function Header() {
 									PRODUTOS
 								</a>
 							</li>
-							<li className="nav-item mx-3">
+							<li className="nav-item mx-lg-3">
 								<a
 									className="nav-link"
 									href="/refactoring-usitop/contato"
@@ -49,7 +50,7 @@ function Header() {
 									CONTATO
 								</a>
 							</li>
-							<li className="nav-item ms-3">
+							<li className="nav-item mx-lg-3">
 								<a
 									className="nav-link"
 									href="/refactoring-usitop/sobre"
