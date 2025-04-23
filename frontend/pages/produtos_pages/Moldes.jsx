@@ -5,16 +5,15 @@ import Galery from '../../components/galeria_produtos/Galery';
 import { useEffect } from 'react';
 
 function Moldes() {
-
 	useEffect(() => {
-			window.scrollTo(0, 0);
-		  }, []);
+		window.scrollTo(0, 0);
+	}, []);
 
 	return (
 		<>
 			<Header />
 			<div className="page">
-				<h1>Fabricação de Moldes de Compressão</h1>
+				<h1>Moldes de Compressão</h1>
 
 				<div className="textbox">
 					<p>
@@ -63,28 +62,25 @@ function Moldes() {
 				</div>
 
 				<Galery
-				
-					images = {[
-					{
-						sourc: "*/",
-						desc: "Exemplos de moldes de compressão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de moldes de compressão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de moldes de compressão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de moldes de compressão",
-					}
-				]}
-				
+					images={[
+						{
+							sourc: '*/',
+							desc: 'Exemplos de moldes de compressão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de moldes de compressão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de moldes de compressão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de moldes de compressão',
+						},
+					]}
 				/>
-
 			</div>
 
 			<Footer />

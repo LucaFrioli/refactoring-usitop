@@ -5,7 +5,9 @@ function FaleConosco({ message }) {
 		<>
 			{/* HERO "Envie uma mensagem" */}
 			<div class="row py-5 my-md-5 justify-content-evenly">
-				<h3 class="col-10 col-md-6 col-sm-6 col-lg-4">{message}</h3>
+				<h3 class="col-10 col-md-6 col-sm-6 col-lg-4 montserrat-700">
+					{message}
+				</h3>
 				<a
 					href="contato"
 					class="btn text-white rounded col-8 col-sm-4 col-lg-3 align-content-center"

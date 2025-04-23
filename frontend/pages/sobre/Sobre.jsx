@@ -40,10 +40,10 @@ function Sobre() {
 								<strong>Missão</strong>
 							</h2>
 							<p class="lead">
-								Satisfazer as necessidades do mercado com serviços e
-								produtos de qualidade, destinados à usinagem e
-								ferramentaria, garantindo rentabilidade e atuando
-								sempre com respeito.
+								Satisfazer as necessidades do mercado com
+								serviços e produtos de qualidade, destinados à
+								usinagem e ferramentaria, garantindo
+								rentabilidade e atuando sempre com respeito.
 							</p>
 						</div>
 					</div>
@@ -54,10 +54,10 @@ function Sobre() {
 								<strong>Valores</strong>
 							</h2>
 							<p class="lead">
-								Nossas relações são baseadas em: Qualidade, melhoria
-								continua, comprometimento, transparência, confiança,
-								cooperação, integridade, inovação e
-								sustentabilidade.
+								Nossas relações são baseadas em: Qualidade,
+								melhoria continua, comprometimento,
+								transparência, confiança, cooperação,
+								integridade, inovação e sustentabilidade.
 							</p>
 						</div>
 						<img

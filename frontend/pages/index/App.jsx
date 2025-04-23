@@ -99,7 +99,7 @@ function App() {
 										com serviços e produtos de qualidade,
 										destinados à usinagem e ferramentaria,
 										garantindo rentabilidade e atuando
-										sempre com respeito
+										sempre com respeito.
 									</p>
 								</div>
 							</div>
@@ -107,9 +107,10 @@ function App() {
 					</div>
 				</div>
 
-				<h1 className="text-center montserrat-700 mx-3">
+				<h1 className="text-center mx-3 montserrat-700 responsive-title">
 					Nossas especialidades
 				</h1>
+
 				<div className="container my-5">
 					<div className="row d-flex justify-content-center">
 						<CardServicos
@@ -142,26 +143,25 @@ function App() {
 				</div>
 			</div>
 
-			<div
-				className="p-4 mt-5 text-right col-lg-6 w-100"
-				id="hero-message"
-			>
-				<h1
-					className="display-5 fw-bold text-body-emphasis montserrat"
-					id="text-color"
-				>
-					Precisa de uma solução?
-					<br />
-					Entre em contato!
-				</h1>
-				<a
-					href="contato"
-					type="button submit"
-					className="btn btn-lg w-50 my-3 col-12"
-					id="btn-message"
-				>
-					Envie uma mensagem
-				</a>
+			<div className="p-4 mt-5 text-center" id="hero-message">
+				<div className="w-50 mx-auto py-5">
+					<h1
+						className="display-5 fw-bold text-body-emphasis montserrat"
+						id="text-color"
+					>
+						Precisa de uma solução?
+						<br />
+						Entre em contato!
+					</h1>
+					<a
+						href="contato"
+						type="button submit"
+						className="btn btn-lg my-3"
+						id="btn-message"
+					>
+						Envie uma mensagem
+					</a>
+				</div>
 			</div>
 			<Footer />
 		</>

@@ -4,12 +4,10 @@ import './Moldes.css';
 import Galery from '../../components/galeria_produtos/Galery';
 import { useEffect } from 'react';
 
-
 function Matrizes() {
-
 	useEffect(() => {
-			window.scrollTo(0, 0);
-		  }, []);
+		window.scrollTo(0, 0);
+	}, []);
 
 	return (
 		<>
@@ -56,28 +54,25 @@ function Matrizes() {
 				</div>
 
 				<Galery
-				
-				images = {[
-					{
-						sourc: "*/",
-						desc: "Exemplos de matrizes de extrusão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de matrizes de extrusão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de matrizes de extrusão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de matrizes de extrusão",
-					}
-				]}
-
+					images={[
+						{
+							sourc: '*/',
+							desc: 'Exemplos de matrizes de extrusão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de matrizes de extrusão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de matrizes de extrusão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de matrizes de extrusão',
+						},
+					]}
 				/>
-
 			</div>
 
 			<Footer />

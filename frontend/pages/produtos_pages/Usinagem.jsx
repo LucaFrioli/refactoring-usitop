@@ -4,10 +4,9 @@ import Galery from '../../components/galeria_produtos/Galery';
 import { useEffect } from 'react';
 
 function Usinagem() {
-
 	useEffect(() => {
-			window.scrollTo(0, 0);
-		  }, []);
+		window.scrollTo(0, 0);
+	}, []);
 
 	return (
 		<>
@@ -79,29 +78,25 @@ function Usinagem() {
 				</div>
 
 				<Galery
-				
-				images = {[
-					{
-						sourc: "*/",
-						desc: "Exemplos de usinagem",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de usinagem",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de usinagem",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de usinagem",
-					}
-				]}
-
-
+					images={[
+						{
+							sourc: '*/',
+							desc: 'Exemplos de usinagem',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de usinagem',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de usinagem',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de usinagem',
+						},
+					]}
 				/>
-
 			</div>
 
 			<Footer />

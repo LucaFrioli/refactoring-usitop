@@ -5,17 +5,15 @@ import './Moldes.css';
 import { useEffect } from 'react';
 
 function EletroEr() {
-
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	  }, []);
-	
+	}, []);
 
 	return (
 		<>
 			<Header />
 			<div className="page">
-				<h1><strong>Fabricação por Eletroerosão</strong></h1>
+				<h1 className="montserrat-700">Eletroerosão</h1>
 				<div className="textbox">
 					<p>
 						Na Usitop, utilizamos a tecnologia de{' '}
@@ -69,28 +67,25 @@ function EletroEr() {
 				</div>
 
 				<Galery
-				
-				images = {[
-					{
-						sourc: "*/",
-						desc: "Exemplos de eletroerosão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de eletroerosão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de eletroerosão",
-					},
-					{
-						src: "*/",
-						desc: "Exemplos de eletroerosão",
-					}
-				]}
-				
+					images={[
+						{
+							sourc: '*/',
+							desc: 'Exemplos de eletroerosão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de eletroerosão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de eletroerosão',
+						},
+						{
+							src: '*/',
+							desc: 'Exemplos de eletroerosão',
+						},
+					]}
 				/>
-
 			</div>
 
 			<Footer />
