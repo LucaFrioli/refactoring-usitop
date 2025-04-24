@@ -1,13 +1,42 @@
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/header';
+import { useState } from 'react';
+import axios from 'axios';
 
 function Contato() {
-	const action = import.meta.env.VITE_EMAIL_CONSUME;
-	const endereco = import.meta.env.VITE_ADDRESS;
+	const [formData, setFormData] = useState({
+		Nome: '',
+		Email: '',
+		Celular: '',
+		Mensagem: '',
+	});
+
+	const handleChange = (e) => {
+		setFormData({ ...formData, [e.target.name]: e.target.value });
+	};
+
+	const handleSubmit = async (e) => {
+		e.preventDefault();
+
+		try {
+			await axios.post(
+				'/api/contato',
+				{
+					Nome: formData.Nome,
+					Email: formData.Email,
+					Celular: formData.Celular,
+					Mensagem: formData.Mensagem
+				}
+			);
+			alert('Mensagem enviada com sucesso!');
+		} catch (err) {
+			alert(`Erro ao enviar. Tente novamente mais tarde. ${err}`);
+		}
+	};
+
 	return (
 		<>
 			<Header />
-			{/* <div id="alert-contato" style="display: none"></div> */}
 
 			<div className="container-fluid my-5">
 				<div className="row mb-3 justify-content-center">
@@ -38,14 +67,13 @@ function Contato() {
 					<div className="col-xl-6 col-md-8 col-10 text-start">
 						<form
 							method="post"
-							action={action}
+							onSubmit={handleSubmit}
 							className="form-group contactForm my-5"
 						>
 							<div className="row justify-content-center">
 								<div className="col-12 mb-3">
 									<label
 										className="form-label"
-										htmlFor="Nome"
 									>
 										<strong>Nome:</strong>
 									</label>
@@ -55,13 +83,14 @@ function Contato() {
 										id="nome"
 										name="Nome"
 										placeholder="Nome"
+										value={formData.Nome}
+  										onChange={handleChange}
 									/>
 								</div>
 
 								<div className="col-12 col-lg-6 col-md-7 mb-3">
 									<label
 										className="form-label"
-										htmlFor="Email"
 									>
 										<strong>Email:</strong>
 									</label>
@@ -71,13 +100,14 @@ function Contato() {
 										id="email"
 										name="Email"
 										placeholder="Seu email"
+										value={formData.Email}
+  										onChange={handleChange}
 									/>
 								</div>
 
 								<div className="col-12 col-lg-6 col-md-5 mb-3">
 									<label
 										className="form-label"
-										htmlFor="Celular"
 									>
 										<strong>Número de contato:</strong>
 									</label>
@@ -88,22 +118,25 @@ function Contato() {
 										id="telefone"
 										name="Celular"
 										placeholder="(00) 00000-0000"
+										value={formData.Celular}
+  										onChange={handleChange}
 									/>
 								</div>
 
 								<div className="col-12">
 									<label
 										className="form-label"
-										htmlFor="Menssagem"
 									>
 										<strong>Mensagem:</strong>
 									</label>
 									<textarea
 										className="form-control validation col-12"
 										id="message"
-										name="Menssagem"
+										name="Mensagem"
 										placeholder="Insira aqui sua mensagem ..."
 										style={{ height: '150px' }}
+										value={formData.Mensagem}
+  										onChange={handleChange}
 									></textarea>
 								</div>
 							</div>
@@ -115,16 +148,6 @@ function Contato() {
 							>
 								Enviar
 							</button>
-							<input
-								type="hidden"
-								name="_next"
-								value={endereco}
-							/>
-							<input
-								type="text"
-								name="_honey"
-								style={{ display: 'none' }}
-							/>
 						</form>
 					</div>
 				</div>

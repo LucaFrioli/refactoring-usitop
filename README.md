@@ -2,6 +2,14 @@
 
 Este boilerplate foi estruturado para otimizar o trabalho em equipe, padronizar o código e melhorar o fluxo de desenvolvimento, além de oferecer configurações úteis para projetos fullstack. No entanto, sua aplicação não se limita a esses aspectos. Diversos recursos foram configurados para agilizar o início de novos projetos, e vários módulos estão sendo documentados, permitindo que sejam facilmente removidos ou expandidos conforme a necessidade.
 
+# *Nota `.env`*
+*Para a funcionalidade do envio de Emails, deve-se adicionar o arquivo .env ao diretório raiz do projeto, com as variáveis:*
+- USER *(Email SMTP do MailGun, ex.: ```postmaster@sandbox9999999abcde1234f567g890hijklmn0.mailgun.org```)*
+- PASS *(Senha SMTP do MailGun. ex.: `a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6-q7r8s9t0-u1v2w3x4`)*
+- DEST *(Email de destino)*
+- PORT *(Porta usada pelo MailGun, ex.: 587 - Porta de desenvolvimento)*
+- DEST *(Email de destino)*
+
 ## **Sumário**
 
 - [Linting e fromatadores padrões](#informações-sobre-linting-e-ferramentas-de-padronização)
