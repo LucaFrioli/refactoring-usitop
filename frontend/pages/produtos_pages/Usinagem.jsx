@@ -1,6 +1,7 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
 import Galery from '../../components/galeria_produtos/Galery';
+import './produtos_pages.css'
 import { useEffect } from 'react';
 
 function Usinagem() {
@@ -80,20 +81,20 @@ function Usinagem() {
 				<Galery
 					images={[
 						{
-							sourc: '*/',
-							desc: 'Exemplos de usinagem',
+							src: './assets/imgs_galeria/imgs_usinagem/img1.jpg',
+							desc: 'Exemplo de Usinagem 1',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de usinagem',
+							src: './assets/imgs_galeria/imgs_usinagem/img2.jpg',
+							desc: 'Exemplo de Usinagem 2',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de usinagem',
+							src: './assets/imgs_galeria/imgs_usinagem/img3.jpg',
+							desc: 'Exemplo de Usinagem 3',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de usinagem',
+							src: './assets/imgs_galeria/imgs_usinagem/img4.jpg',
+							desc: 'Exemplo de Usinagem 4',
 						},
 					]}
 				/>

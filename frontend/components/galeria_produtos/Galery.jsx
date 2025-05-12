@@ -1,11 +1,11 @@
-import '../../pages/produtos_pages/Moldes.css';
+import './Galeria.css';
 
 function Galery(props) {
 	return (
-		<div class="galeria py-5">
+		<div class="galeria px-5">
 			{props.images.map((image) => (
 				<figure class="fig">
-					<img src={image.sourc} alt={image.desc} />
+					<img class="img-galeria" src={image.src} alt={image.desc} />
 				</figure>
 			))}
 		</div>

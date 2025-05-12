@@ -1,6 +1,6 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
-import './Moldes.css';
+import './produtos_pages.css';
 import Galery from '../../components/galeria_produtos/Galery';
 import { useEffect } from 'react';
 
@@ -64,20 +64,20 @@ function Moldes() {
 				<Galery
 					images={[
 						{
-							sourc: '*/',
-							desc: 'Exemplos de moldes de compressão',
+							src: './assets/imgs_galeria/imgs_moldes/img1.png',
+							desc: 'Exemplo de Moldes de Compressão 1',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de moldes de compressão',
+							src: './assets/imgs_galeria/imgs_moldes/img2.png',
+							desc: 'Exemplo de Moldes de Compressão 2',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de moldes de compressão',
+							src: './assets/imgs_galeria/imgs_moldes/img3.png',
+							desc: 'Exemplo de Moldes de Compressão 3',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de moldes de compressão',
+							src: './assets/imgs_galeria/imgs_moldes/img4.png',
+							desc: 'Exemplo de Moldes de Compressão 4',
 						},
 					]}
 				/>

@@ -1,7 +1,7 @@
 import Footer from '../../components/footer/Footer';
 import Galery from '../../components/galeria_produtos/Galery';
 import Header from '../../components/header/header';
-import './Moldes.css';
+import './produtos_pages.css';
 import { useEffect } from 'react';
 
 function EletroEr() {
@@ -69,20 +69,20 @@ function EletroEr() {
 				<Galery
 					images={[
 						{
-							sourc: '*/',
-							desc: 'Exemplos de eletroerosão',
+							src: './assets/imgs_galeria/imgs_eletro/img1.png',
+							desc: 'Exemplo de Eletro-Erosão 1',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de eletroerosão',
+							src: './assets/imgs_galeria/imgs_eletro/img2.png',
+							desc: 'Exemplo de Eletro-Erosão 2',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de eletroerosão',
+							src: './assets/imgs_galeria/imgs_eletro/img3.png',
+							desc: 'Exemplo de Eletro-Erosão 3',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de eletroerosão',
+							src: './assets/imgs_galeria/imgs_eletro/img4.png',
+							desc: 'Exemplo de Eletro-Erosão 4',
 						},
 					]}
 				/>

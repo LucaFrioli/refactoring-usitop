@@ -24,24 +24,8 @@
     font-weight: 800;
 }
 
-.galeria{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70vw;
-    justify-content: space-evenly;
-}
-
-.fig{
-    width: 400px;
-    height: 300px;
-    background-color: beige;
-}
-
-
-
 @media (max-width: 600px) {
-   
+
     .page > h1{
         width: 90vw;
     }
@@ -51,10 +35,4 @@
         overflow-x: scroll;
     }
 
-    .galeria{
-        width: 90vw;
-    }
-
-   
-
-  }
+}

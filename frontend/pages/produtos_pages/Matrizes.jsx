@@ -1,6 +1,6 @@
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/Footer';
-import './Moldes.css';
+import './produtos_pages.css';
 import Galery from '../../components/galeria_produtos/Galery';
 import { useEffect } from 'react';
 
@@ -56,20 +56,20 @@ function Matrizes() {
 				<Galery
 					images={[
 						{
-							sourc: '*/',
-							desc: 'Exemplos de matrizes de extrusão',
+							src: './assets/imgs_galeria/imgs_matrizes/img1.png',
+							desc: 'Exemplo de Matrizes 1',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de matrizes de extrusão',
+							src: './assets/imgs_galeria/imgs_matrizes/img2.png',
+							desc: 'Exemplo de Matrizes 2',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de matrizes de extrusão',
+							src: './assets/imgs_galeria/imgs_matrizes/img3.png',
+							desc: 'Exemplo de Matrizes 3',
 						},
 						{
-							src: '*/',
-							desc: 'Exemplos de matrizes de extrusão',
+							src: './assets/imgs_galeria/imgs_matrizes/img4.png',
+							desc: 'Exemplo de Matrizes 4',
 						},
 					]}
 				/>

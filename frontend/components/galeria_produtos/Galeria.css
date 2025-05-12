@@ -1,0 +1,28 @@
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+.fig{
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+}
+
+.img-galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 600px) {
+
+    .galeria{
+        width: 90vw;
+    }
+    
+}
