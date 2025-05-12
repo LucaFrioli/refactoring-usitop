@@ -13,7 +13,7 @@ function Moldes() {
 		<>
 			<Header />
 			<div className="page">
-				<h1>Moldes de Compressão</h1>
+				<h1><strong>Moldes de Compressão</strong></h1>
 
 				<div className="textbox">
 					<p>

@@ -13,7 +13,7 @@ function EletroEr() {
 		<>
 			<Header />
 			<div className="page">
-				<h1 className="montserrat-700">Eletroerosão</h1>
+				<h1><strong>Eletroerosão</strong></h1>
 				<div className="textbox">
 					<p>
 						Na Usitop, utilizamos a tecnologia de{' '}

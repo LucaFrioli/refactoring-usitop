@@ -13,7 +13,7 @@ function Usinagem() {
 		<>
 			<Header />
 			<div className="page">
-				<h1>Usinagem CNC e Convencional de Alta Precisão</h1>
+				<h1><strong>Usinagem CNC e Convencional de Alta Precisão</strong></h1>
 
 				<div className="textbox">
 					<p>

@@ -13,7 +13,7 @@ function Matrizes() {
 		<>
 			<Header />
 			<div className="page">
-				<h1>Matriz de Extrusão</h1>
+				<h1><strong>Matriz de Extrusão</strong></h1>
 
 				<div className="textbox">
 					<p>
